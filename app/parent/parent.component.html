@@ -1,0 +1,9 @@
+<p>parent works!</p>
+<form>
+    <input type="text" #score1 />
+    <input type="button" value="Send data to child" (click)=clickEventHandler(score1.value); />
+</form>
+<div *ngIf="showChild">
+    <app-child [dataToChild]=score (triggerParentEvent)=triggerParentEventHandler($event);></app-child>
+
+</div>

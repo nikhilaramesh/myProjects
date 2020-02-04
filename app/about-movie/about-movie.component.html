@@ -1,0 +1,10 @@
+<p>about-movie works!</p>
+<p>Movie Name: {{dataToParent.movieName}}</p>
+<p>About the Movie: {{dataToParent.movieDescription}}</p>
+<img [src]=dataToParent.moviePoster/>
+<br/>
+<label>Number of Tickets</label>
+<input type="text" #noTicket/>
+<br/>
+<input type="button" value="Book Tickets" (click)=clickEventHandler(noTicket.value)/>
+

@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html>
-  <head>
-  </head>
-  <body>
-    <h1>Angular Training</h1>
-    <form>
-      <label id="lblUserName">UserName</label>
-      <input type="text" id="lblUserName" (change)=txtUserName($event)/>
-      <br/>
-      <label id="lblPassword">Password</label>
-      <input type="text" id="lblPassword" (change)=txtPassword($event)/>
-      <br/>
-      <input type="button" value="submit" change=printDetails($event)/>
-      {{UserName}}
-      {{Password}}
-    </form>
 
-  </body>
-</html>
+    <h1>Movies</h1>
+    <app-movie-details></app-movie-details>
+    <app-parent></app-parent>

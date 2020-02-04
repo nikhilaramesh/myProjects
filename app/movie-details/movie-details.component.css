@@ -1,0 +1,11 @@
+table
+{
+    border:3px inset crimson;
+    border-collapse: collapse;
+    
+}
+td,th
+{
+    border:3px inset crimson;
+
+}
